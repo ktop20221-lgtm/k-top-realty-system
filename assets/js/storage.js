@@ -1,6 +1,5 @@
 const SUPABASE_URL = "https://gryukimeqpxysvaqvwsr.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdyeXVraW1lcXB4eXN2YXF2d3NyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ4MTM1MTMsImV4cCI6MjA5MDM4OTUxM30.PkaT4pA0Htrr7jHXa6pvh9_PRTwz9oENMF6TDr1pHM4
-";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdyeXVraW1lcXB4eXN2YXF2d3NyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ4MTM1MTMsImV4cCI6MjA5MDM4OTUxM30.PkaT4pA0Htrr7jHXa6pvh9_PRTwz9oENMF6TDr1pHM4";
 const headers = {
   "Content-Type": "application/json",
   "apikey": SUPABASE_KEY,
