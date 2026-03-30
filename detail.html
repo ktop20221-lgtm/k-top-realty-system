@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>매물 상세 - 하이탑부동산</title>
+  <title>매물 상세 - 케이탑부동산</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="assets/css/style.css" />
 <script src="assets/js/storage.js"></script>
@@ -13,8 +13,8 @@
   <header class="header">
     <div class="logo-icon"></div>
     <div class="logo-text">
-      <div class="logo-main">HITOP 부동산</div>
-      <div class="logo-sub">파주/운정을 가장 잘 아는 상가·토지·오피스텔 전문</div>
+      <div class="logo-main">K_TOP 부동산</div>
+      <div class="logo-sub">운정을 가장 잘 아는 아파트·상가·토지 전문</div>
     </div>
   </header>
   <div class="header-line"></div>
@@ -42,11 +42,8 @@
         <select id="edit_propertyType">
           <option value="shop">상가</option>
           <option value="office">사무실</option>
-          <option value="officetel">오피스텔</option>
-          <option value="hilsstate">힐스테이트더운정</option>
           <option value="land_single">토지</option>
           <option value="factory">공장/창고</option>
-          <option value="bizcenter">지식산업센터</option>
           <option value="etc">기타</option>
         </select>
       </div>
@@ -105,7 +102,7 @@
   }
 
   function getTypeLabel(type) {
-    const map = { shop:"상가", office:"사무실", officetel:"오피스텔", hilsstate:"힐스테이트더운정", factory:"공장/창고", bizcenter:"지식산업센터", etc:"기타" };
+    const map = { shop:"상가", office:"사무실", factory:"공장/창고", etc:"기타" };
     if (map[type]) return map[type];
     if (type && type.startsWith("land")) return "토지";
     return "기타";
